@@ -12,15 +12,15 @@ def initialize
 end
 
 def perform
-  crypto
-  save
+ crypto
+ save
 end
 
 def save
   Crypto.delete_all
-  puts @hash
-  @hash.each do |key, values|
-    Crypto.create(name: key , value: values)
+  #puts @hash
+  @hash.each do |key, value|
+    Crypto.create(name: key, value: value)
   end
 end
 

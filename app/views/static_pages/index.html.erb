@@ -1,6 +1,4 @@
 <h1>Welcome</h1>
 <p>Select your crypto</p>
-<% form_for @crypto do |f| %>
-  <%= f.text_field :name %>
-  <%= f.submit %>
-<% end %>
+<%= @crypto.name %>
+
