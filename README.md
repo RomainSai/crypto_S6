@@ -2,7 +2,7 @@
 
 Groupe : Sandrine, Rémi, Christophe et Romain
 
-* [lien Heroku :](https://startscrap-rennes.herokuapp.com/)
+* [lien Heroku](https://startscrap-rennes.herokuapp.com/)
 
 Pour démarrer l'Application
 
@@ -19,4 +19,4 @@ clone le repository
 
 La liste des cryptomonnaies s'affiche avec le nom et leur valeurs
 
-#Enjoy :)
+Enjoy :)
