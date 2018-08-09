@@ -2,15 +2,17 @@
 
 Groupe : Sandrine, Rémi, Christophe et Romain
 
+* [lien Heroku :](https://startscrap-rennes.herokuapp.com/)
+
 Pour démarrer l'Application
 
 clone le repository
 
-* https://github.com/RomainSai/crypto_S6
+```git clone https://github.com/RomainSai/crypto_S6```
 
- - bundle install
- - rails db:create
- - rails db:migrate
+```bundle install```
+```rails db:create```
+```rails db:migrate```
 
  * lancer votre server : rails server
  * http://localhost:3000/
