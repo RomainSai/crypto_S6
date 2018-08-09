@@ -1,24 +1,20 @@
-# README
+# STARTSCRAP From RENNES
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Groupe : Sandrine, Rémi, Christophe et Romain
 
-Things you may want to cover:
+Pour démarrer l'Application
 
-* Ruby version
+clone le repository
 
-* System dependencies
+* https://github.com/RomainSai/crypto_S6
 
-* Configuration
+ - bundle install
+ - rails db:create
+ - rails db:migrate
 
-* Database creation
+ * lancer votre server : rails server
+ * http://localhost:3000/
 
-* Database initialization
+La liste des cryptomonnaies s'affiche avec le nom et leur valeurs
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Enjoy :)
