@@ -16,13 +16,16 @@ def perform
 end
 
 def save
-  
+
+  hash.each do |key, values|
+    Crypto.create(name: key , values: values)
+  end
 end
 
 private
 
 def crypto
-  hash = {}
+  @hash = {}
   list_names = []
   list_values = []
   doc = Nokogiri::HTML(open(@url))
@@ -33,9 +36,9 @@ def crypto
     list_values << node.text
   end
 for i in (0..list_names.length-1) do
-  hash[list_names[i]] = list_values[i]
+  @hash[list_names[i]] = list_values[i]
 end
-return hash
+return @hash
 end
 
 end
